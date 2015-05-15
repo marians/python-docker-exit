@@ -10,13 +10,12 @@
 
 #### Stop it
 
-This will likely take a bit more than 10 seconds.
+This should take far less than 10 seconds.
 
 	time docker-compose stop
 
 #### Check the exit code
 
-This will likely be `137`.
-
 	docker-compose ps
 
+The exit code should be 0.
